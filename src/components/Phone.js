@@ -40,7 +40,12 @@ export default function Phone() {
           <div className="chatRadioContainer chatRadio1"><p className="chatRadioText"><div className="chatRadio"></div>30 minute walk</p><p className="chatRadioPrice">$29</p></div>
           <div className="chatRadioContainer chatRadio2"><p className="chatRadioText"><div className="chatRadio"></div>1 hour walk</p><p className="chatRadioPrice">$49</p></div>
         </div>
-        <div className="phoneSubmit"></div>
+        <div className="phoneSubmit">
+          <div className="submitContainer">
+            <p className="submitPlaceholder">Type a message…</p>
+            <div className="submitButton">{">"}</div>
+          </div>
+        </div>
       </div>
     </div>
   )
