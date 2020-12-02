@@ -37,8 +37,8 @@ export default function Phone() {
           <div className="chatMessageContainer chatMessageContainerRt"><p className="chatMessage chatMessageRight">Here are a few pictures. She’s a happy girl!</p></div>
           <div className="chatMessageContainer chatMessageContainerRt chatMessageContainerRtLast"><p className="chatMessage chatMessageRight chatMessageRightLast">Can you make it?</p></div>
           <div className="chatMessageContainer"><p className="chatMessage chatMessageLeft">She looks so happy! The time we discussed works. How long shall I take her out for?</p></div>
-          <div className="chatRadioContainer chatRadio1"><p className="chatRadioText"><div className="chatRadio"></div>30 minute walk</p><p className="chatRadioPrice">$29</p></div>
-          <div className="chatRadioContainer chatRadio2"><p className="chatRadioText"><div className="chatRadio"></div>1 hour walk</p><p className="chatRadioPrice">$49</p></div>
+          <div className="chatRadioContainer chatRadio1"><p className="chatRadioText"><span className="chatRadio"></span>30 minute walk</p><p className="chatRadioPrice">$29</p></div>
+          <div className="chatRadioContainer chatRadio2"><p className="chatRadioText"><span className="chatRadio"></span>1 hour walk</p><p className="chatRadioPrice">$49</p></div>
         </div>
         <div className="phoneSubmit">
           <div className="submitContainer">
