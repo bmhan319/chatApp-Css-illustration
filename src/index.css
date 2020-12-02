@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#root {
+/* Colors */
+/* Text */
+/* Primary */
+--PaleViolet: hsl(276, 100%, 81%);  /* (sub-heading at the top of the app UI) */
+--Violet: hsl(276, 55%, 52%);       /* (chat on the left) */
+--DesatViolet: hsl(271, 15%, 43%);  /* (chat on the right) */
+--GrayBlue: hsl(206, 6%, 79%);      /* (placeholder text) */
+--DarkViolet: hsl(271, 36%, 24%);   /* (main heading), (submit button background) */
+--GrayViolet: hsl(270, 7%, 64%);    /* (paragraph) */
+
+/* Secondary */
+--White: hsl(0, 0%, 100%);
+--LightGrayViolet: hsl(270, 20%, 96%);  /* (app background) */
+--LightMagenta: hsl(289, 100%, 72%);    /* (radio button outline) */
+
+/* Gradient */
+--Magenta: hsl(293, 100%, 63%);       /* Gradient1 */
+--LightViolet: hsl(264, 100%, 61%);   /* Gradient2 */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.App {
+  background-color: var(--White);
+  width: 100vw;
+  height: 100vh;
 }

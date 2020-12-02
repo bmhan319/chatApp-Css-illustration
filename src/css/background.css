@@ -1,0 +1,26 @@
+.backgroundComponent {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.darkBg {
+  width: 150vw;
+  height: 55vh;
+  transform: translateX(-66.667%);
+  background-image: linear-gradient(to top left, var(--LightViolet), var(--Magenta));
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.lightBg {
+  width: 150vw;
+  height: 55vh;
+  transform: translateX(33.333%);
+  background-color: var(--LightGrayViolet);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  position: absolute;
+  bottom: 0;
+}
