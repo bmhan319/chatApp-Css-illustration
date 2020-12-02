@@ -1,0 +1,38 @@
+.phoneComponent {
+  width: 248px;
+  height: 504px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: var(--White);
+  box-shadow: 5px 5px 18px 0 #e8e8e8;
+  padding: 10px;
+}
+
+.phoneContainer {
+  width: 228px;
+  height: 484px;
+  border-radius: 20px;
+  background-color: var(--LightGrayViolet);
+}
+
+.phoneHeader {
+  position: relative;
+  background-image: linear-gradient(to right, var(--LightViolet), var(--Magenta));
+  height: 66px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+
+.headerCutout {
+  position: absolute;
+  width: 130px;
+  height: 36px;
+  background-color: var(--White);
+  border-radius: 15px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

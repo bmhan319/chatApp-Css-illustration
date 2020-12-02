@@ -33,4 +33,5 @@ body {
   background-color: var(--White);
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
