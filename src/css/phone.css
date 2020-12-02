@@ -50,6 +50,7 @@
   display: flex;
   align-items: center;
   padding-right: 12px;
+  color: var(--White);
 }
 
 .headerImgContainer {
@@ -105,6 +106,98 @@
   margin-bottom: 0;
 }
 
+/* Phone Chat */
 .phoneChat {
-  bordeR: 2px solid red;
+  margin: 12px 8px;
+  position: relative;
+}
+
+.chatMessageContainer {
+  width: 100%;
+  display: flex;
+}
+
+.chatMessageContainerRt {
+  justify-content: flex-end;
+}
+
+.chatMessageContainerRtLast {
+  margin-bottom: 8px;
+}
+
+.chatMessage {
+  border-radius: 10px;
+  margin-bottom: 8px;
+  font-size: .4em;
+  width: 66%;
+  padding: 7px;
+}
+
+.chatMessageLeft {
+  background-color: var(--PaleViolet);
+  color: var(--Violet);
+  border-bottom-left-radius: 3px;
+}
+
+.chatMessageRight {
+  background-color: var(--White);
+  color: var(--DesatViolet);
+  border-bottom-right-radius: 3px;
+  box-shadow: 4px 4px 8px 0 #e8e8e8;
+}
+
+.chatMessageRightLast {
+  width: 41%;
+}
+
+.chatMessageImgContainer {
+  display: flex;
+  padding-top: 8px;
+  margin-bottom: 8px;
+  justify-content: flex-end;
+}
+
+.chatImgSpan {
+  width: 40px;
+  height: 40px;
+  margin-left: 8px;
+}
+
+.chatImg {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.chatRadioContainer {
+  background-image: linear-gradient(to left, var(--LightViolet), var(--Magenta));
+  width: 73%;
+  padding: 8px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--White);
+  border-radius: 10px;
+  border-bottom-left-radius: 3px;
+  margin-bottom: 8px;
+}
+
+.chatRadio {
+  background-color: var(--Magenta);
+  border: 1px solid var(--LightMagenta);
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.chatRadioText {
+  font-size: .5em;
+  display: flex;
+  align-items: center;
+  opacity: .6;
+}
+
+.chatRadioPrice {
+  font-size: .8em;
+  padding-right: 8px;
 }
