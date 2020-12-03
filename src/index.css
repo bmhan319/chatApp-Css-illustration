@@ -2,7 +2,7 @@
 /* Colors */
 /* Text */
 /* Primary */
---PaleViolet: hsl(276, 100%, 81%);  /* (sub-heading at the top of the app UI) */
+--PaleViolet: hsl(270, 42%, 93%);  /* (sub-heading at the top of the app UI) */
 --Violet: hsl(276, 55%, 52%);       /* (chat on the left) */
 --DesatViolet: hsl(271, 15%, 43%);  /* (chat on the right) */
 --GrayBlue: hsl(206, 6%, 79%);      /* (placeholder text) */
@@ -12,7 +12,7 @@
 
 /* Secondary */
 --White: hsl(0, 0%, 100%);
---LightGrayViolet: hsl(270, 20%, 96%);  /* (app background) */
+--LightGrayViolet: hsl(264, 33%, 97%);  /* (app background) */
 --LightMagenta: hsl(289, 100%, 72%);    /* (radio button outline) */
 
 /* Gradient */
