@@ -28,11 +28,16 @@
 
 body {
   font-family: 'Rubik', sans-serif;
+  background-color: hsl(206, 6%, 79%);
 }
 
 .App {
   background-color: var(--White);
   width: 100vw;
+  max-width: 1440px;
   height: 100vh;
   position: relative;
+  position: relative;
+  margin: 0 auto;
+  overflow-x: hidden;
 }

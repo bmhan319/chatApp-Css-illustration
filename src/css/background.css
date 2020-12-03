@@ -3,6 +3,7 @@
   height: 100vh;
   overflow-x: hidden;
   position: relative;
+  max-width: 1440px;
 }
 
 .darkBg {
@@ -12,15 +13,66 @@
   background-image: linear-gradient(to top left, var(--LightViolet), var(--Magenta));
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .lightBg {
   width: 150vw;
   height: 55vh;
-  transform: translateX(33.333%);
+  transform: translateX(66.667%);
   background-color: var(--LightGrayViolet);
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
   position: absolute;
+  right: 0;
   bottom: 0;
 }
+
+@media (min-width: 600px) {
+  .darkBg {
+    width: 600px;
+    height: 670px;
+    transform: translateX(-60%);
+  }
+
+  .lightBg {
+    width: 600px;
+    height: 670px;
+    transform: translateX(60%);
+    right: 0;
+  }
+ }
+
+ @media (min-width: 900px) {
+  .darkBg {
+    width: 600px;
+    height: 670px;
+    transform: translateX(-30%);
+    background-image: linear-gradient(to top right, var(--LightViolet), var(--Magenta));
+  }
+
+  .lightBg {
+    width: 600px;
+    height: 670px;
+    transform: translateX(46%);
+    right: 0;
+  }
+ }
+
+ @media (min-width: 1100px) {
+  .darkBg {
+    width: 600px;
+    height: 670px;
+    transform: translateX(-30%);
+    background-image: linear-gradient(to top right, var(--LightViolet), var(--Magenta));
+  }
+
+  .lightBg {
+    width: 600px;
+    height: 670px;
+    transform: translateX(46%);
+    right: 0;
+  }
+ }
