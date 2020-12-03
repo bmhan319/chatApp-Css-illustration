@@ -13,6 +13,7 @@
   height: 484px;
   border-radius: 20px;
   background-color: var(--LightGrayViolet);
+  position: relative;
 }
 
 .phoneHeader {
@@ -202,11 +203,22 @@
   padding-right: 8px;
 }
 
+.chatOff{
+  display: none;
+}
+
+.chatOn {
+  display: block;
+}
+
 /* Submit */
 .phoneSubmit {
   margin: 0px 8px;
   padding-top: 4px;
-  position: relative;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 8px;
 }
 
 .submitContainer {

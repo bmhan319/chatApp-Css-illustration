@@ -27,18 +27,18 @@ export default function Phone() {
           </div>
         </div>
         <div className="phoneChat">
-          <div className="chatMessageContainer"><p className="chatMessage chatMessageLeft">That sounds great. I’d be happy with that.</p></div>
-          <div className="chatMessageContainer"><p className="chatMessage chatMessageLeft">Could you send over some pictures of your dog, please?</p></div>
-          <div className="chatMessageImgContainer">
+          <div id="chat1" className="chatMessageContainer chatOff"><p className="chatMessage chatMessageLeft">That sounds great. I’d be happy with that.</p></div>
+          <div id="chat2" className="chatMessageContainer chatOff"><p className="chatMessage chatMessageLeft">Could you send over some pictures of your dog, please?</p></div>
+          <div id="chat3" className="chatMessageImgContainer chatOff">
             <span className="chatImgSpan"><img className="chatImg" src={dog1} alt="dog1"/></span>
             <span className="chatImgSpan"><img className="chatImg" src={dog2} alt="dog2"/></span>
             <span className="chatImgSpan"><img className="chatImg" src={dog3} alt="dog3"/></span>
           </div>
-          <div className="chatMessageContainer chatMessageContainerRt"><p className="chatMessage chatMessageRight">Here are a few pictures. She’s a happy girl!</p></div>
-          <div className="chatMessageContainer chatMessageContainerRt chatMessageContainerRtLast"><p className="chatMessage chatMessageRight chatMessageRightLast">Can you make it?</p></div>
-          <div className="chatMessageContainer"><p className="chatMessage chatMessageLeft">She looks so happy! The time we discussed works. How long shall I take her out for?</p></div>
-          <div className="chatRadioContainer chatRadio1"><p className="chatRadioText"><span className="chatRadio"></span>30 minute walk</p><p className="chatRadioPrice">$29</p></div>
-          <div className="chatRadioContainer chatRadio2"><p className="chatRadioText"><span className="chatRadio"></span>1 hour walk</p><p className="chatRadioPrice">$49</p></div>
+          <div id="chat4" className="chatOff chatMessageContainer chatMessageContainerRt"><p className="chatMessage chatMessageRight">Here are a few pictures. She’s a happy girl!</p></div>
+          <div id="chat5" className="chatOff chatMessageContainer chatMessageContainerRt chatMessageContainerRtLast"><p className="chatMessage chatMessageRight chatMessageRightLast">Can you make it?</p></div>
+          <div id="chat6" className="chatOff chatMessageContainer"><p className="chatMessage chatMessageLeft">She looks so happy! The time we discussed works. How long shall I take her out for?</p></div>
+          <div id="chat7" className="chatOff chatRadioContainer chatRadio1"><p className="chatRadioText"><span className="chatRadio"></span>30 minute walk</p><p className="chatRadioPrice">$29</p></div>
+          <div id="chat8" className="chatOff chatRadioContainer chatRadio2"><p className="chatRadioText"><span className="chatRadio"></span>1 hour walk</p><p className="chatRadioPrice">$49</p></div>
         </div>
         <div className="phoneSubmit">
           <div className="submitContainer">
